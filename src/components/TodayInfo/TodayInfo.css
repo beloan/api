@@ -1,0 +1,133 @@
+.container_today {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 220px;
+    background-color: #a37ad5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+    color: white;
+    gap: 30px;
+    padding: 0 40px;
+}
+
+.container_today__first {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.today_temperature {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.today_temperature__degrees {
+    width: fit-content;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    background: linear-gradient(84.4deg, #FFFFFF -16.56%, rgba(255, 255, 255, 0) 118.43%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.today_temperature__feels {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    line-height: 22px;
+}
+
+.today_temperature__feels div {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.today_sun {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.today_sun__item {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 40px;
+}
+
+.today_sun__item img {
+    width: 40px;
+    height: 40px;
+}
+
+.today_sun__item div {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 20px;
+    justify-content: flex-start;
+}
+
+.today_sun__item div div {
+    text-align: start;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.container_today__second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.container_today__second img {
+    width: 200px;
+    height: 150px;
+}
+
+.container_today__third {
+    display: flex;
+    flex-direction: row;
+}
+
+.today_factors {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.today_factors__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 120px;
+}
+
+.today_factors__item img {
+    height: 45px;
+    width: auto;
+}
+
+.today_factors__item__first {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.today_factors__item__second {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}

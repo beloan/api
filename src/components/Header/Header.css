@@ -1,0 +1,96 @@
+.container_header {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.container_header .label {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    background-color: #ccb4f3;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.25);
+    padding: 10px 30px;
+    border-radius: 40px;
+    color: white;
+}
+
+label.header_input {
+    height: 62px;
+    width: 50%;
+    background: #ccb4f3;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+input.header_input {
+    width: 100%;
+    height: 62px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+input.header_input:focus {
+    outline: none;
+}
+
+input.header_input::placeholder {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+button.header_input {
+    border-radius: 0 40px 40px 0;
+    padding: 0 20px 0 15px;
+    color: #532f72;
+    border: none
+}
+
+button.header_input:hover {
+    border: none;
+}
+
+button.header_input:focus {
+    outline: none;
+}
+
+.cities {
+    z-index: 100;
+    position: absolute;
+    background-color: #e1d6f6;
+    cursor: pointer;
+    right: 22%;
+    top: 86px;
+    width: 40%;
+    max-height: 20%;
+    overflow: auto;
+}
+
+.city_item {
+    display: flex;
+    padding: 10px 30px;
+}
+
+.city_item:hover {
+    background-color: #532f72;
+    color: white;
+}

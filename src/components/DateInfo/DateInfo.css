@@ -1,0 +1,32 @@
+.container_date {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 220px;
+    background-color: #a37ad5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+}
+
+.today_label__first {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.today_label__second {
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.today_label__third {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}

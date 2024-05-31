@@ -1,0 +1,54 @@
+.container_hourly {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 270px;
+    background-color: #a37ad5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
+    color: white;
+    gap: 10px;
+    padding: 0 130px;
+}
+
+.hourly_label {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.hourly_info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.hourly_info__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9159d5;
+    padding: 13px 20px;
+    border-radius: 30px;
+}
+
+.hourly_info__item__hours {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.hourly_info__item__degrees {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.hourly_info__item__wind_navigation {
+    height: 40px;
+}
+
+.hourly_info__item__wind_speed {
+    font-weight: 500;
+    font-size: 14px;
+}

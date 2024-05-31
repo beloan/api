@@ -1,0 +1,25 @@
+#root {
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: #7b76ff 0 0 40px;
+    color: #11235d;
+    font-weight: 600;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container_app {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(112.65deg, #9f59d5 0.28%, rgb(20, 22, 136) 178.65%);
+
+}
+
+.container_app__first {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 110px;
+    gap: 5%;
+    justify-content: space-between;
+}
